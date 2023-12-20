@@ -1,0 +1,98 @@
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+#nav > div {
+    margin: 10px;
+}
+
+.nav-bar {
+    background-color: 2a9d8f;
+    height: 75px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#menu-button {
+    position: fixed;
+    left: 16px;
+    top: 22px;
+    background: transparent;
+}
+
+body {
+    margin: 0px;
+    background-color: 264653;
+    /*background-image: url(playtime2.gif);
+    background-size: auto;*/
+}
+
+.article {
+    box-sizing: border-box;
+    background-color: e76f51;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 8px;
+    margin-top: 75px;
+    position: fixed;
+    left: -160px;
+    transition: all .3s ease;
+    box-shadow: 5px 5px 10px black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+
+}
+
+#settings-button {
+    position: fixed;
+    bottom: 8px;
+}
+
+body[data-pressed="true"] > article {
+    left: 0px;
+}
+
+.card > div{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: url(playtime.gif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px black;
+}

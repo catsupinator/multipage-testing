@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+body > div {
+    height: 168px;
+    width: 400px;
+    background-image: url(lame2.gif);
+}
